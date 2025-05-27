@@ -15,7 +15,7 @@ function App() {
     });
 
     const apiurl =
-        " http://www.omdbapi.com/?i=tt3896198&apikey=7b8059f2";
+        "https://www.omdbapi.com/?apikey=7b8059f2";
 
     const searchInput = (e) => {
         let s = e.target.value;
@@ -63,7 +63,7 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <h1>Movie Search App</h1>
+                <h1>Movie Search App </h1>
             </header>
             <main>
                 <Search
